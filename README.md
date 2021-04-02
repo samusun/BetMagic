@@ -1,24 +1,27 @@
-# bet-magic
+# Bet-Magic
+### A retro game site where you can create a user and collect score. This is a group project i did with some friends from school.
 
-## Project setup
-```
-npm install
-```
+Im using this in my application for LIA, so to be clear with my contribution here's a list:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+#### Components all made by me:
+Components/Mastermind/Restart
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Components/collectScore
 
-### Lints and fixes files
-```
-npm run lint
-```
+Components/Return
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+src/store/modules/playerData
+
+views/TicTac.vue
+
+views/Mastermind
+
+#### Components i contributed in:
+
+components/Signup - I made the data responsive and create the mapGetters functions.
+
+components/snake/SnakeCanvas - The logic and functions regardring the CollecteScore future.
+
+views/Profilepage - All the responsive values.
+
+Also some routerlinks and soundfiles.
