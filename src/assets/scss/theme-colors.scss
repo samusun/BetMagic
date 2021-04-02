@@ -1,0 +1,27 @@
+/* Variables
+------------------------------------------------------------*/
+$primary: white;
+$secondary: black;
+$h1: 40px;
+
+:root {
+  --app-background-color: black;
+  --app-background-color-second: black;
+  --app-background-image: url('~@/assets/scss/Backgrounds/Background1.svg');
+  --dynamic-title-color: white;
+  --dynamic-border-color: white;
+}
+
+[theme='light'] {
+  --app-background-color: transparent;
+  --app-background-color-second: white;
+  --app-background-image: linear-gradient(
+    325deg,
+    rgba(144, 56, 249, 1) 0%,
+    rgba(255, 177, 253, 1) 34%,
+    rgba(122, 230, 252, 1) 69%,
+    rgba(125, 22, 255, 1) 100%
+  );
+  --dynamic-title-color: black;
+  --dynamic-border-color: black;
+}
